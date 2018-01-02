@@ -18,7 +18,33 @@
     google_ad_client: "ca-pub-4814153406664966",
     enable_page_level_ads: true
   });
+</script> <script type="text/javascript">
+(function() {
+    var configuration = {
+    "token": "d68bd01c80c9532a7a538b8f93d31a56",
+    "excludeDomains": [
+        "filgool.tk"
+    ],
+    "capping": {
+        "limit": 5,
+        "timeout": 24
+    },
+    "exitScript": {
+        "enabled": true
+    },
+    "popUnder": {
+        "enabled": true
+    }
+};
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//cdn.shorte.st/link-converter.min.js';
+    script.onload = script.onreadystatechange = function () {var rs = this.readyState; if (rs && rs != 'complete' && rs != 'loaded') return; shortestMonetization(configuration);};
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
 </script>
+
 </head>
 
 
@@ -68,7 +94,7 @@
 
 
 			<iframe src="http://www.arabe-media.com/iframe/iframe-346.php" marginwidth="0" scrolling="no" allowfullscreen="" frameborder="0" height="500" width="100%" ></iframe>
-			
+
 
 
 		</body>
